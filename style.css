@@ -14,8 +14,8 @@ body {
 
 .navbar {
     position: fixed;
+    background-color: rgb(34, 32, 32) ;
     top: 0;
-    background-color: var(--secondary-color);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     display: flex;
@@ -28,9 +28,9 @@ body {
 
 .heading__link {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     border: 1px solid var(--primary-color); 
-     padding: 5px;
+     padding: 1rem;
 }
 
 .nav__list {
@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     font-size: large;
     font-weight: bold;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding: 1rem;
     color: var(--secondary-color);
 }
@@ -53,5 +53,10 @@ body {
     background-color: #494ea70e;
     color: white;
     text-decoration: underline;
+}
+
+p { 
+    text-align: center;
+    color: red;
 }
 
