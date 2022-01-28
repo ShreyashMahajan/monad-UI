@@ -3,6 +3,7 @@
     --background-color: rgb(29, 27, 27);
     --secondary-color: #6970e7;
     --text-color: #626691;
+    --backgroundTwo-color: rgb(34, 32, 32); 
 
 }
 
@@ -57,10 +58,11 @@ body {
     height: 8rem;
 }
 
-.container {
+.container-header {
     width: 70%;
     text-align: center;
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 390px) {
@@ -115,6 +117,49 @@ body {
     background-color: rgb(199, 196, 196);
 }
 
+.container {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
+.container-intro {
+    width: 70%;
+    background-color: var(--backgroundTwo-color);
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
 
+.container__heading {
+    font-size: 1.5rem;
+}
 
+.text {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.container--x {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: auto;
+   padding: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 10px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content__img {
+    width: 90%;
+}
