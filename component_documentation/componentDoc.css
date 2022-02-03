@@ -3,7 +3,7 @@
     --background-color: rgb(29, 27, 27);
     --secondary-color: #6970e7;
     --text-color: #737477;
-    --backgroundTwo-color: rgb(34, 32, 32); 
+    --component-backgroundColor: rgb(34, 32, 32); 
 
 }
 
@@ -11,7 +11,7 @@ body {
     background-color: var(--background-color);
     color: var(--primary-color);
     margin: 0%;
-    padding: 0%;
+    padding: 0%
 }
 
 .navbar {
@@ -59,24 +59,7 @@ body {
     text-decoration: underline;
 }
 
-
-body {
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    margin: 0%;
-    padding: 0%;
-}
-
-.wrapper {
-  
-}
-
-
 /* **** Sidebar **** */
-
-
-
-
 
 .sidebar {
     position: fixed;
@@ -88,7 +71,7 @@ body {
     top: 67px;
     bottom: 0;
     text-align: center;
-    background-color: var(--backgroundTwo-color);
+    background-color: var(--component-backgroundColor);
     border-top: 2px solid var(--background-color);
 }
 
@@ -131,7 +114,7 @@ body {
 .list--item {
     padding: 1rem;
     font-size: large;
-    background-color: var(--backgroundTwo-color);
+    background-color: var(--component-backgroundColor);
     border: 1px solid var(--background-color);
     cursor: pointer;
 }
@@ -163,11 +146,6 @@ body {
     display: none;
 }
 
-/* @media only screen and (max-width: 700px) {
-    .sidebar {
-        width: 14rem;
-    }
-} */
 
 @media only screen and (max-width: 700px) {
     .navbar-toggle__list {
