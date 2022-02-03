@@ -55,3 +55,68 @@
 .avatar-rounded {
     border-radius: 100%;
 }
+
+/* alert component started from here */
+
+.alert-container {
+    border: 1px solid black;
+    padding: 2rem;
+    min-width:15rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.alert {
+      display: flex;
+      width: 25rem;
+     padding: 1rem;
+     margin-bottom: 1rem;
+     align-items: center;
+     flex-wrap: wrap;
+     color: white;
+}
+
+.alert__img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.alert--error {
+    background-color: rgba(236, 54, 22, 0.5);
+}
+
+.alert--success {
+    background-color: rgba(29, 236, 22, 0.5);
+}
+
+.alert--info {
+   background-color: rgba(65, 105, 225, 0.493);
+}
+
+.alert--warning {
+   background-color: rgba(139, 65, 11, 0.514);
+}
+
+.alert--component-img {
+     width: 50px;
+}
+
+.alert-composition {
+    max-width: 25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(38, 235, 31, 0.5);
+    margin-bottom: 1.5rem;
+}
+
+.alert--heading {
+    color: black;
+}
+
+.alert__component--text {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
