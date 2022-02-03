@@ -11,7 +11,8 @@ body {
     background-color: var(--background-color);
     color: var(--primary-color);
     margin: 0%;
-    padding: 0%
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -24,7 +25,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
     width: 100%;
 }
 
@@ -88,13 +88,12 @@ body {
     width: calc(100% - 20rem);
     top: 67px;
     bottom: 0;
-    height: 100vh;
+    height: cal(100% - 67px );
     margin-left: auto;
     right: 0;
     overflow-y: scroll;
     color: var(--text-color);
     text-align: center;
-   
 }
 
 .component-list--container {
@@ -117,6 +116,11 @@ body {
     background-color: var(--component-backgroundColor);
     border: 1px solid var(--background-color);
     cursor: pointer;
+}
+
+.item-link {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .list--item:hover {
@@ -163,6 +167,35 @@ body {
     .menu-hamburger {
         display: initial;
     }
-   
+}
+
+/* *** main container *** */
+
+.component-container {
+    padding: 1rem;
+    width: 90%;
+    border: 1px solid var(--secondary-color);
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sub-component-container {
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.component__heading {
+    color: var(--secondary-color);
+}
+
+.component-display {
+    width: 100%;
+    padding: 1rem;
+}
+
+.sub-component__heading {
+    color: var(--primary-color);
 }
 

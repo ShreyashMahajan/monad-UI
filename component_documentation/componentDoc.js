@@ -17,6 +17,7 @@ menuClose.addEventListener('click', () => {
     sideBar.style.width = "20rem";
     sideBar.style.display = "none";
     menuHamburger.style.display = "initial";
+    mainBar.style.display = "initial";
     
     function mediaQueryFunction(x) {
         if (x.matches) { // If media query matches

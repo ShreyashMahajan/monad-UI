@@ -1,0 +1,57 @@
+:root {
+    --width-sm: 3rem;
+    --height-sm: 3rem;
+    --width-md: 5rem;
+    --height-md: 5rem;
+    --width-lg: 8rem;
+    --height-lg: 8rem;
+    --width-xl: 10rem;
+    --height-xl: 10rem;
+}
+
+.heading {
+    text-align: center;
+}
+
+/* *****avatar***** */
+.avatar-container {
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.avatar {
+    width: 4rem;
+}
+
+.avatar--sm {
+    width: var(--width-sm);
+    height: var(--height-sm);
+}
+
+.avatar--md {
+    width: var(--width-md);
+    height: var(--height-md);
+}
+
+.avatar--lg {
+    width: var(--width-lg);
+    height: var(--height-lg);
+}
+
+.avatar--xl {
+    width: var(--width-xl);
+    height: var(--height-xl);
+}
+
+/* **avatar-rounded** */
+
+
+.avatar-rounded {
+    border-radius: 100%;
+}

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="/componentLibrary.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/code_snippet/code_snippet.css">
     <link rel="stylesheet" href="componentDoc.css">
 </head>
 <body>
@@ -25,24 +27,24 @@
     <aside class="sidebar">
        <div class="navbar__list-toggle">
            <ul class="navbar-toggle__list">
-            <a href="/index.html"><li class="list--item">Home</li></a>
-            <a href="/component_documentation/componentDoc.html"><li class="list--item">Docs</li></a>
-            <a href="#"><li class="list--item">Github</li></a>
+            <a href="/index.html" class="item-link"><li class="list--item">Home</li></a>
+            <a href="/component_documentation/componentDoc.html" class="item-link"><li class="list--item">Docs</li></a>
+            <a href="#"class="item-link"><li class="list--item">Github</li></a>
            </ul>
         </div>
        <div class="component-list--container">
            <h2 class="heading component-list__heading">Components</h2>
            <ul class="component-list">
-               <li class="list--item">Avatar</li>
-               <li class="list--item">Alert</li>
-               <li class="list--item">Badge</li>
-               <li class="list--item">Button</li>
-               <li class="list--item">Card</li>
-               <li class="list--item">Input</li>
-               <li class="list--item">Modal</li>
-               <li class="list--item">Navigation</li>
-               <li class="list--item">Responsive Images</li>
-               <li class="list--item">Toast/Snackbar</li>
+              <a href="#avatar--component" class="item-link"> <li class="list--item">Avatar</li></a>
+              <a href="" class="item-link"> <li class="list--item">Alert</li></a>
+              <a href="" class="item-link"> <li class="list--item">Badge</li></a>
+              <a href="" class="item-link"> <li class="list--item">Button</li></a>
+              <a href="" class="item-link"> <li class="list--item">Card</li></a>
+              <a href="" class="item-link"> <li class="list--item">Input</li></a>
+              <a href="" class="item-link"> <li class="list--item">Modal</li></a>
+              <a href="" class="item-link"> <li class="list--item">Navigation</li></a>
+              <a href="" class="item-link"> <li class="list--item">Responsive Images</li></a>
+              <a href="" class="item-link"> <li class="list--item">Toast/Snackbar</li></a>
            </ul>
        </div>
        <div class="icon--delete">
@@ -51,9 +53,154 @@
     </aside>
 
     <main class="main-container">
-        
+          <!-- avatar component -->
+         <div class="component-container" id="avatar--component">
+             <h1 class="component__heading">Avatar</h1>
+             <p class="component__sub-heading">Avatar is used to represent the profile pictures and icons. Monad UI has different sizes of Avatar.</p>
+             <div class="sub-component-container">
+                 <h2 class="sub-component__heading">Avatar Small</h2>
+                <div class="component-display">
+                    <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--sm">
+                    <img  src="/image/female.png" alt="avatar small female" class="avatar avatar--sm">
+                </div>
+                <div class="component-code">
+                    <div class="code-snippet-container ">
+                        <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--sm">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar--sm">
+                        </textarea>
+                        <button class="code-snippet--copy">Copy</button>
+                         </div>
+                </div>
+             </div>
+             <div class="sub-component-container">
+                <h2 class="sub-component__heading">Avatar Medium</h2>
+               <div class="component-display">
+                   <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--md">
+                   <img  src="/image/female.png" alt="avatar small female" class="avatar avatar--md">
+               </div>
+               <div class="component-code">
+                   <div class="code-snippet-container ">
+                       <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--md">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar--md">
+                       </textarea>
+                       <button class="code-snippet--copy">Copy</button>
+                        </div>
+               </div>
+            </div>
+            <div class="sub-component-container">
+                <h2 class="sub-component__heading">Avatar Large</h2>
+               <div class="component-display">
+                   <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--lg">
+                   <img  src="/image/female.png" alt="avatar small female" class="avatar avatar--lg">
+               </div>
+               <div class="component-code">
+                   <div class="code-snippet-container ">
+                       <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--lg">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar--lg">
+                       </textarea>
+                       <button class="code-snippet--copy">Copy</button>
+                        </div>
+               </div>
+            </div>
+            <div class="sub-component-container">
+                <h2 class="sub-component__heading">Avatar Extra Large</h2>
+               <div class="component-display">
+                   <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--xl">
+                   <img  src="/image/female.png" alt="avatar small female" class="avatar avatar--xl">
+               </div>
+               <div class="component-code">
+                   <div class="code-snippet-container ">
+                       <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--xl">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar--xl">
+                       </textarea>
+                       <button class="code-snippet--copy">Copy</button>
+                        </div>
+               </div>
+            </div>       
+         </div>
+         <div class="component-container">
+            <h1 class="component__heading">Avatar</h1>
+            <p class="component__sub-heading">Avatar is used to represent the profile pictures and icons. Monad UI has different sizes of Avatar.</p>
+            <div class="sub-component-container">
+                <h2 class="sub-component__heading">Avatar Rounded Small</h2>
+               <div class="component-display">
+                   <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar--sm avatar-rounded">
+                   <img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--sm">
+               </div>
+               <div class="component-code">
+                   <div class="code-snippet-container ">
+                       <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--sm">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--sm">
+                       </textarea>
+                       <button class="code-snippet--copy">Copy</button>
+                        </div>
+               </div>
+            </div>
+            <div class="sub-component-container">
+               <h2 class="sub-component__heading">Avatar Rounded Medium</h2>
+              <div class="component-display">
+                  <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--md">
+                  <img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--md">
+              </div>
+              <div class="component-code">
+                  <div class="code-snippet-container ">
+                      <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--md">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--md">
+                      </textarea>
+                      <button class="code-snippet--copy">Copy</button>
+                       </div>
+              </div>
+           </div>
+           <div class="sub-component-container">
+               <h2 class="sub-component__heading">Avatar Rounded Large</h2>
+              <div class="component-display">
+                  <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--lg">
+                  <img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--lg">
+              </div>
+              <div class="component-code">
+                  <div class="code-snippet-container ">
+                      <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--lg">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--lg">
+                      </textarea>
+                      <button class="code-snippet--copy">Copy</button>
+                       </div>
+              </div>
+           </div>
+           <div class="sub-component-container">
+               <h2 class="sub-component__heading">Avatar Rounded Extra Large</h2>
+              <div class="component-display">
+                  <img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--xl">
+                  <img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--xl">
+              </div>
+              <div class="component-code">
+                  <div class="code-snippet-container ">
+                      <textarea class="code-snippet" name="code-snippet" rows="5" cols="" readonly>
+<img  src="/image/male.jpg" alt="avatar small male" class="avatar avatar-rounded avatar--xl">
+
+<img  src="/image/female.png" alt="avatar small female" class="avatar avatar-rounded avatar--xl">
+                      </textarea>
+                      <button class="code-snippet--copy">Copy</button>
+                       </div>
+              </div>
+           </div>       
+        </div>
     </main>
     </div>
     <script src="componentDoc.js"></script>
+    <script src="/code_snippet/code-snippet.js"></script>
 </body>
 </html>
