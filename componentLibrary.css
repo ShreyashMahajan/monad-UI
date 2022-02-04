@@ -120,3 +120,28 @@
     text-align: center;
     width: 50%;
 }
+
+/* badge component started */
+
+.badge {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.badge__text {
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    top: -5px;
+    right: -3px;
+    min-width: 15px;
+    min-height: 15px;
+    text-align: center;
+}
+
+.badge--three-digit {
+   font-size: 70%;
+}
