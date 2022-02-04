@@ -120,3 +120,190 @@
     text-align: center;
     width: 50%;
 }
+
+/* badge component started */
+
+.badge {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.badge__text {
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    top: -5px;
+    right: -3px;
+    min-width: 15px;
+    min-height: 15px;
+    text-align: center;
+}
+
+.badge--three-digit {
+   font-size: 70%;
+}
+
+/*button started from here */
+
+.btnTag {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btnTag--regular {
+    background-color: rgb(7, 164, 212);
+    color: white;
+}
+
+.btnTag--success {
+    background-color: rgb(25, 160, 25);
+    color: black;
+}
+
+.btnTag--icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnTag--delete {
+    background-color: rgb(209, 6, 6);
+    color: white;
+}
+
+.btnTag--share {
+    background-color: rgb(3, 67, 87);
+    color: white;
+}
+
+.btnTag__text {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.btnTag--float {
+    background-color: rgb(65, 197, 250);
+    border-radius: 100%;
+    border: 0;
+}
+
+.btnTag--float:hover {
+    background-color: rgb(24, 160, 214);
+}
+
+.image--float {
+    width: 4rem;
+}
+
+.btnTag--save {
+    border: 2px solid rgb(86, 139, 5);
+    color: rgb(86, 139, 5);
+    background-color: rgb(29, 27, 27);
+}
+
+.btnTag--save:hover {
+    background-color:rgb(86, 139, 5) ;
+    color: white;
+}
+
+.btnTag--cancel {
+    border: 2px solid rgba(190, 2, 2, 0.815);
+    color: rgba(190, 2, 2, 0.815);
+    background-color: rgb(29, 27, 27);
+}
+
+.btnTag--cancel:hover {
+    background-color:rgba(190, 2, 2, 0.815) ;
+    color: white;
+}
+
+/* input tabs start from here  */
+
+.input {
+    padding: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(7, 164, 212);
+    color: white;
+    background-color:rgb(31, 28, 28) ;
+}
+
+.input:focus {
+   background-color: rgba(65, 200, 241, 0.267);
+}
+
+.input--success {
+    border: 1px solid rgb(6, 240, 6);
+}
+
+.input--success:focus {
+    background-color: rgba(6, 240, 6, 0.267);
+}
+
+.input--danger {
+    border: 1px solid red;
+}
+
+.input--danger:focus {
+    background-color: rgba(255, 0, 0, 0.267);
+}
+
+.input--warning {
+    border: 1px solid rgb(151, 99, 3);
+}
+
+.input--warning:focus {
+    background-color:rgba(151, 98, 0, 0.267) ;
+}
+
+.inline-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid ;
+    border-radius: 1rem;
+    width: 13rem;
+}
+
+.inline--error {
+    color: red;
+}
+
+.inline--text {
+   margin: 1rem;
+   margin-top: 0;
+   padding-left: 1rem;
+}
+
+.text-error {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
+
+.inline--success {
+    border: 1px solid green;
+}
+
+.inline--warning {
+    border: 1px solid rgb(214, 142, 8);
+}
+
+.text-warning {
+    color:rgb(214, 142, 8) ;
+}
