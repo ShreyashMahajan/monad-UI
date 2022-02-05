@@ -398,7 +398,7 @@
 }
 
 .inline--error {
-    color: var(--colo);
+    color: var(--color-error);
 }
 
 .inline--text {
