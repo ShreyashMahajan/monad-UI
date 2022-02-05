@@ -7,6 +7,17 @@
     --height-lg: 8rem;
     --width-xl: 10rem;
     --height-xl: 10rem;
+    --color-warning:rgb(214, 142, 8);
+    --color-success:green;
+    --color-error: red;
+    --color-input-danger:red;
+    --color-input-warning:rgb(151, 99, 3);
+    --bg-regular-color:rgb(7, 164, 212);
+   --bg-success-color:rgb(25, 160, 25);
+   --bg-delete-color:rgb(209, 6, 6);
+   --bg-share-color:  rgb(3, 67, 87);
+   --bg-float-color: rgb(65, 197, 250);
+   --bg-float-hover:rgb(24, 160, 214);
 }
 
 .heading {
@@ -158,12 +169,13 @@
 }
 
 .btnTag--regular {
-    background-color: rgb(7, 164, 212);
+    background-color: var(--bg-regular-color);
     color: white;
+   
 }
 
 .btnTag--success {
-    background-color: rgb(25, 160, 25);
+    background-color: var(--bg-success-color);
     color: black;
 }
 
@@ -174,12 +186,12 @@
 }
 
 .btnTag--delete {
-    background-color: rgb(209, 6, 6);
+    background-color: var(--bg-delete-color);
     color: white;
 }
 
 .btnTag--share {
-    background-color: rgb(3, 67, 87);
+    background-color: var(--bg-share-color);
     color: white;
 }
 
@@ -189,13 +201,13 @@
 }
 
 .btnTag--float {
-    background-color: rgb(65, 197, 250);
+    background-color: var(--bg-float-color);
     border-radius: 100%;
     border: 0;
 }
 
 .btnTag--float:hover {
-    background-color: rgb(24, 160, 214);
+    background-color: var(var(--bg-float-hover)) ;
 }
 
 .image--float {
@@ -356,7 +368,7 @@
 }
 
 .input--danger {
-    border: 1px solid red;
+    border: 1px solid var(--color-input-danger);
 }
 
 .input--danger:focus {
@@ -364,7 +376,7 @@
 }
 
 .input--warning {
-    border: 1px solid rgb(151, 99, 3);
+    border: 1px solid var(--color-input-warning);
 }
 
 .input--warning:focus {
@@ -386,7 +398,7 @@
 }
 
 .inline--error {
-    color: red;
+    color: var(--colo);
 }
 
 .inline--text {
@@ -396,11 +408,11 @@
 }
 
 .text-error {
-    color: red;
+    color: var(--color-error);
 }
 
 .text-success {
-    color: green;
+    color: var(--color-success);
 }
 
 .inline--success {
@@ -412,8 +424,12 @@
 }
 
 .text-warning {
-    color:rgb(214, 142, 8) ;
+    color: var(--color-warning) ;
 }
+
+
+
+
 
 /* **** navigation **** */
 
