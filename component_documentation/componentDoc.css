@@ -212,6 +212,7 @@ body {
    justify-content: center;
    column-gap: 10px;
    flex-wrap: wrap;
+   margin-bottom: 2rem;
 }
 
 .sub-component__heading {
