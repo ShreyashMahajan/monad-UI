@@ -498,3 +498,98 @@
     margin: 10px;
     color: white;
 }
+
+/* responsive image starts from here */
+.img--responsive {
+    width: 100%;
+}
+
+.reponsive__image--contianer {
+    width: 12rem;
+}
+
+.img--rounded {
+    border-radius: 100%;
+}
+
+/* toast start from here */
+
+#snackbar {
+    visibility: hidden;
+    min-width: 200px;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: green;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 1;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* text utilities start here */
+
+.heading-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.heading--one {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.heading--two {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.heading--three {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.heading--four {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heading--gray {
+    color: gray;
+}
+
+.heading-container--center{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
