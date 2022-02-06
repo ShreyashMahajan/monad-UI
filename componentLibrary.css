@@ -207,7 +207,7 @@
 }
 
 .btnTag--float:hover {
-    background-color: var(var(--bg-float-hover)) ;
+    background-color: var(--bg-float-hover) ;
 }
 
 .image--float {
