@@ -73,6 +73,7 @@ body {
     text-align: center;
     background-color: var(--component-backgroundColor);
     border-top: 2px solid var(--background-color);
+    z-index: 1;
 }
 
 .icon-cross {
