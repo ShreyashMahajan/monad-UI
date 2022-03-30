@@ -593,3 +593,29 @@
     align-items: center;
     color: white;
 }
+
+/* list css starts from here  */
+
+.list {
+    border: 1px solid var(--primary-color);
+    /* margin: 0; */
+    padding: 1.5rem;
+}
+
+.non-bullet {
+   list-style: none;
+}
+
+.list--simple {
+   font-size: large;
+   padding: 8px 1rem;
+   margin: 5px;
+   background-color: black;
+}
+
+.list--stacked {
+   font-size: large;
+   padding: 8px 1rem;
+   background-color: black;
+   border-bottom: 1px solid var(--primary-color);
+}
