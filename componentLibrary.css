@@ -619,3 +619,50 @@
    background-color: black;
    border-bottom: 1px solid var(--primary-color);
 }
+
+/* modal component */
+
+.modal--container {
+    background-color: white;
+    color: black;
+    position: static;
+   border-radius: 8px;
+   padding: 8px 1rem;
+}
+
+.modal-content {
+  padding: 1rem 2rem;
+  margin:  8px 1rem;
+}
+
+.modal-cross {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+.img-clear {
+   height: 2.5rem;
+}
+
+.btn-clear {
+  padding: 0;
+  border: none
+}
+
+.btn-modal {
+  padding: 8px 1rem;
+  font-size: large;
+}
+
+.modal-wrapper {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  display: none;
+}
+
+.rating__img {
+  height: 2rem;
+}
