@@ -18,6 +18,7 @@
    --bg-share-color:  rgb(3, 67, 87);
    --bg-float-color: rgb(65, 197, 250);
    --bg-float-hover:rgb(24, 160, 214);
+    --text-black-color: black;
 }
 
 .heading {
@@ -671,7 +672,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    color: black;
+    color: var(--text-black-color);
     row-gap: 10px;
     column-gap: 10px;
 }
@@ -685,7 +686,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3,1fr);
-    color: black;
+    color: var(--text-black-color);
     row-gap: 10px;
     column-gap: 10px;
 }
