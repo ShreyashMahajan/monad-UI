@@ -666,3 +666,28 @@
 .rating__img {
   height: 2rem;
 }
+
+/* grid starts */
+
+.grid-two {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid--item {
+     height: 100px;
+     background-color: rgba(211, 37, 25, 0.863);
+}
+
+.grid-three {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+    row-gap: 10px;
+    column-gap: 10px;
+}
