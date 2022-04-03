@@ -65,7 +65,7 @@ body {
     position: fixed;
     left: 0;
     width: 20rem;
-    height: 100vh;
+    height: calc(100vh-67px);
     overflow-y: scroll;
     color: var(--text-color);
     top: 67px;
